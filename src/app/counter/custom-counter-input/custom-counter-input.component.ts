@@ -10,10 +10,15 @@ import { CounterState } from '../state/counter.state';
 })
 export class CustomCounterInputComponent implements OnInit {
   value!: number;
+  getText: any;
  
   constructor(private store: Store<{ counter: CounterState}>) { }
 
   ngOnInit(): void {
+    this.store.select(this.getText).subscribe((getText) => {
+      console.log('Channel Name Observable called');
+      this.getText = getText;
+    });
   }
 
   onAdd() {

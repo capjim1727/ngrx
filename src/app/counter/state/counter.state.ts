@@ -1,4 +1,5 @@
 export interface CounterState {
+    [x: string]: any;
     counter: number;
 }
 

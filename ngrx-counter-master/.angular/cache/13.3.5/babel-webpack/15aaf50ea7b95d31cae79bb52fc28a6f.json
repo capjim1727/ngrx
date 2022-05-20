@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const initialState = {\n  user: null\n};","map":null,"metadata":{},"sourceType":"module"}

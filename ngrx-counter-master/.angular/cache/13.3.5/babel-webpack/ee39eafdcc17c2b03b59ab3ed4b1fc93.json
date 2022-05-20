@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createFeatureSelector, createSelector } from '@ngrx/store';\nexport const getRouterState = createFeatureSelector('router');\nexport const getCurrentRoute = createSelector(getRouterState, router => {\n  return router.state;\n});","map":null,"metadata":{},"sourceType":"module"}

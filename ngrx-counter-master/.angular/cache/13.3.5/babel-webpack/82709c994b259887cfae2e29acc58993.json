@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const initialState = {\n  showLoading: false,\n  errorMessage: ''\n};","map":null,"metadata":{},"sourceType":"module"}
