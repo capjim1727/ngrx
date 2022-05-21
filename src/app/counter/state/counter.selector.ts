@@ -9,6 +9,6 @@ export const getCounter = createSelector(getCounterState, (state) => {
   return state.counter;
 });
 
-export const getChannelName = createSelector(getCounterState, (state) => {
-  return state['getText'];
+export const getText = createSelector(getCounterState, (state) => {
+  return state.counter;
 });
